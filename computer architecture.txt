@@ -1,0 +1,81 @@
+Computer Architecture
+=====================
+
+what is computer architecture?
+
+Computer architecture is the organization of the components which make up a computer system and the meaning of the operations which guide its function. It defines what is seen on the machine interface, which is targeted by programming languages and their compilers. 
+
+
+
+                                             *************************************************************************************************
+
+
+#There are a three categories of computer architecture, and all work together to make a machine function: 
+
+
+1-System design:
+
+System design includes all hardware parts of a computer, including data processors, multiprocessors, memory controllers, and direct memory access. It also includes the graphics processing unit (GPU). This part is the physical computer system.
+
+
+2-Instruction set architecture (ISA):
+
+This includes the functions and capabilities of the central processing unit (CPU). It is the embedded programming language and defines what programming it can perform or process. This part is the software that makes the computer run, such as operating systems like Windows on a PC or iOS on an Apple iPhone, and includes data formats and the programmed instruction set.
+
+
+3-Microarchitecture:
+
+Microarchitecture is also known as computer organization and defines the data processing and storage element and how they should be implemented into the ISA. It is the hardware implementation of how an ISA is implemented in a particular processor.
+
+                                        *****************************************************************************************************
+
+
+#there are a four main types of computer architecture
+******************************************************
+
+1- Von Neumann architecture
+
+Named after mathematician and computer scientist John von Neumann, the Von Neumann architecture features a single memory space for both data and instructions, which are fetched and executed sequentially. This means that programs and data are stored in the same memory, allowing for flexible and easy modification of programs
+
+
+2-  Harvard architecture
+
+Unlike the von Neumann architecture where instructions and data share the same memory and data paths, Harvard architecture is a type of computer architecture that has separate storage units and dedicated pathways for instructions and data. This allows for simultaneous access to instructions and data, potentially improving performance.
+
+
+3- Modified Harvard Architecture
+
+A Modified Harvard Architecture is a hybrid type of computer architecture that combines features of both the classic Harvard architecture and the more widely used von Neumann architecture. 
+Like a true Harvard architecture, a modified Harvard architecture utilizes separate caches for instructions and data. These caches are much faster than main memory, so frequently accessed instructions and data can be retrieved quickly.
+However, unlike the pure Harvard architecture where instructions and data have completely separate physical memory units, a modified Harvard architecture keeps instructions and data in the same main memory
+
+
+4- RISC & CISC Architectures
+
+RISC (Reduced Instruction Set Computing) and CISC (Complex Instruction Set Computing) are two different architectures for computer processors that determine how they handle instructions. 
+
+RISC processors are designed with a set of basic, well-defined instructions that are typically fixed-length and easy for the processor to decode and execute quickly. The emphasis in RISC is on designing the hardware to execute simple instructions efficiently, leading to faster clock speeds and potentially lower power consumption. Examples of RISC processors include ARM processors commonly found in smartphones and tablets, and MIPS processors used in some embedded systems.
+
+CISC processors, however, have a wider range of instructions, including some very complex ones that can perform multiple operations in a single instruction. This can be more concise for programmers but can take the processor more time to decode and execute.
+
+The goal of CISC is to provide a comprehensive set of instructions to handle a wide range of tasks, potentially reducing the number of instructions a programmer needs to write. Examples of CISC processors include Intel’s x86 processors, which are used in most personal computers, and Motorola 68000 family of processors which are used in older Apple computers.
+
+
+                                                ***************************************************************************************
+
+Components of Computer Architecture
+************************************
+
+While computer architectures can differ greatly depending on the purpose of the computer, several key components generally contribute to its structure. These include:
+
+1- Central Processing Unit (CPU) - Often referred to as the "brain" of the computer, the CPU executes instructions, performs calculations, and manages data. Its architecture dictates factors such as instruction set, clock speed, and cache hierarchy, all of which significantly impact overall system performance.
+ 
+2- Memory Hierarchy - This includes various types of memory, such as cache memory, random access memory (RAM), and storage devices. The memory hierarchy plays a crucial role in optimizing data access times, as data moves between different levels of memory based on their proximity to the CPU and the frequency of access.
+ 
+3- Input/Output (I/O) System - The I/O system enables communication between the computer and external devices, such as keyboards, monitors, and storage devices. It involves designing efficient data transfer mechanisms to ensure smooth interaction and data exchange.
+ 
+4- Storage Architecture - This deals with how data is stored and retrieved from storage devices like hard drives, solid-state drives (SSDs), and optical drives. Efficient storage architectures ensure data integrity, availability, and fast access times.
+ 
+5- Instruction Pipelining - Modern CPUs employ pipelining, a technique that breaks down instruction execution into multiple stages. This allows the CPU to process multiple instructions simultaneously, resulting in improved throughput.
+ 
+6- Parallel Processing - This involves dividing a task into smaller subtasks and executing them concurrently, often on multiple cores or processors. Parallel processing significantly accelerates computations, making it key to tasks like simulations, video rendering, and machine learning.
