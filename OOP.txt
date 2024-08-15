@@ -1,0 +1,66 @@
+Object Oriented Programing (OOP) 
+=================================
+
+what is OOP ?
+- OOP is an imperative programming paradigm that built on the concept of objects and classes and how it interacts with each other
+
+# OOP contains four main principles:
+
+1- Inheritance
+
+Inheritance is a mechanism in which one object acquires all the states and behaviors of a parent object.
+
+there is a different types of inheritance like:
+-single
+-multi level 
+-hierarchical
+-multiple
+-hybrid
+
+                 ************************************
+
+2- Encapsulation
+
+Encapsulation is a process of wrapping code and data together into a single unit.
+It's like a capsule that contains a mix of several medicines, and is a technique that helps keep instance variables protected and this can be achieved by using private access modifiers that can’t be accessed by anything outside the class. In order to access private states safely, we have to provide public getter and setter methods
+
+
+Advantages of encapsulation:
+
+1- We can make a class read-only or write-only: for a read-only class, we should provide only a getter method. For a write-only class, we should provide only a setter method.
+
+2- Control over the data: we can control the data by providing logic to setter methods, just like we restricted the stock keeper from assigning negative values in the above example.
+
+3- Data hiding: other classes can’t access private members of a class directly
+
+               **********************************
+
+3-polymorphism
+
+Polymorphism is the ability of an object to take on many forms.
+
+Polymorphism in OOP occurs when a super class references a sub class object.
+
+All Java objects are considered to be polymorphic as they share more than one IS-A relationship (at least all objects will pass the IS-A test for their own type and for the class Object).
+
+We can access an object through a reference variable. A reference variable can be of only one type. Once declared, the type of a reference variable cannot be changed.
+
+A reference variable can be declared as a class or interface type.
+
+A single object can be referred to by reference variables of many different types as long as they are the same type or a super type of the object.
+
+                       ***************************************
+
+4- Abstraction
+
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+
+A common example of abstraction is that pressing the accelerator will increase the speed of a car. But the driver doesn’t know how pressing the accelerator increases the speed – they don't have to know that.
+
+Technically abstract means something incomplete or to be completed later.
+
+In Java, we can achieve abstraction in two ways: abstract class (0 to 100%) and interface (100%).
+
+The keyword abstract can be applied to classes and methods. abstract and final or static can never be together.
+
+ 
