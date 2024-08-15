@@ -1,0 +1,37 @@
+Operating System 
+===================
+
+
+what is operating system?
+
+Operating System lies in the category of system software. It basically manages all the resources of the computer. An operating system acts as an interface between the software and different parts of the computer or the computer hardware. The operating system is designed in such a way that it can manage the overall resources and operations of the computer.
+
+           ********************************************
+
+there is a four main types of OS they include:
+
+1- real-time operating system:
+Real-time Operating System is a type of operating system that serves a real-time system and the time interval required to process and respond to inputs is very small. These operating systems are designed to respond to events in real time. They are used in applications that require quick and deterministic responses, such as embedded systems, industrial control systems, and robotics.
+  
+example: QNX
+
+ 
+2- multi-tasking operating system:
+
+Operating Systems are designed to support multiple users simultaneously
+
+example: linux  
+
+
+3- batch operating system:
+A Batch Operating System is a type of operating system that does not interact with the computer directly. There is an operator who takes similar jobs having the same requirements and groups them into batches.
+   
+example: IBM's OS 
+
+
+4- distributed operating systems:
+Distributed Operating System is a type of operating system that manages a group of different computers and makes appear to be a single computer. These operating systems are designed to operate on a network of computers. They allow multiple users to access shared resources and communicate with each other over the network. Examples include Microsoft Windows Server and various distributions of Linux designed for servers.
+
+example: apache hadoop
+                            
+
